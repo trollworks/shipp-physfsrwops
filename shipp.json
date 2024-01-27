@@ -1,0 +1,18 @@
+{
+  "name": "physfsrwops",
+  "version": "3.2.0",
+  "scripts": {
+    "build": "make all PREFIX=$SHIPP_DIST_DIR",
+    "install": "make install PREFIX=$SHIPP_DIST_DIR"
+  },
+  "dependencies": [
+    {
+      "name": "physfs",
+      "url": "https://github.com/trollworks/shipp-physfs.git"
+    },
+    {
+      "name": "SDL2",
+      "url": "https://github.com/trollworks/shipp-sdl.git"
+    }
+  ]
+}
