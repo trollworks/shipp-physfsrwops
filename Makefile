@@ -11,7 +11,7 @@ ARFLAGS := rcs
 SOURCES = $(shell find src -name "*.c")
 OBJECTS = $(patsubst src/%.c, $(BUILDDIR)/%.o, $(SOURCES))
 DEPS    = $(patsubst %.o, %.d, $(OBJECTS))
-TARGET  = $(BUILDDIR)/libtrollworks-sdk-backend-sdl.a
+TARGET  = $(BUILDDIR)/libphysfsrwops.a
 
 .PHONY: all
 all: $(TARGET)
